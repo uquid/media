@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150.262" height="52.014" viewBox="0 0 150.262 52.014">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.532" y1="1.002" x2="0.523" y2="-0.121" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1d96ff"/>
+      <stop offset="1" stop-color="#0f4b80"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.502" y2="1.129" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff273d"/>
+      <stop offset="1" stop-color="#80141f"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_109" data-name="Group 109" transform="translate(-70.866 -21.276)">
+    <g id="Group_1" data-name="Group 1" transform="translate(70.866 21.276)">
+      <path id="Rectangle_2" data-name="Rectangle 2" d="M1,0H19.433a1,1,0,0,1,1,1V19.433a1,1,0,0,1-1,1H6a6,6,0,0,1-6-6V1A1,1,0,0,1,1,0Z" transform="translate(28.897 14.448) rotate(135)" fill="url(#linear-gradient)"/>
+      <path id="Path_1" data-name="Path 1" d="M1.362,0h10.9a8.173,8.173,0,0,1,8.173,8.173v10.9a1.362,1.362,0,0,1-1.362,1.362H1.362A1.362,1.362,0,0,1,0,19.071V1.362A1.362,1.362,0,0,1,1.362,0Z" transform="translate(40.456 37.566) rotate(135)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(120.569 20)">
+      <text id="Raff" transform="translate(0 37)" fill="#fff" font-size="32" font-family="SegoeUI, Segoe UI" letter-spacing="0.047em"><tspan x="0" y="0">Raff</tspan></text>
+      <text id="le" transform="translate(100.559 38)" fill="#fff" font-size="33" font-family="SegoeUI, Segoe UI"><tspan x="-25.25" y="0">le</tspan></text>
+    </g>
+  </g>
+</svg>
