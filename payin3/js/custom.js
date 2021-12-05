@@ -390,8 +390,8 @@ $(document).ready(function() {
     }
 
 
-    //$('.l2-testimonial-image-slider').slick(slickImgslide2);
-    //$('.l2-testimonial-text-slider').slick(slickContentslide);
+    $('.l2-testimonial-image-slider').slick(slickImgslide2);
+    $('.l2-testimonial-text-slider').slick(slickContentslide);
 
     /*l2 Testimonial slider button active*/
 

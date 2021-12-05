@@ -18942,6 +18942,40 @@ li.sub-menu--item.nav-item-has-children i {
     color: #fff;
 }
 
+.table th{
+    width: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table th img {
+    width: 40%;
+}
+.table td {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.66px;
+    line-height: 34px;
+}
+
+.wallet th {
+    font-size: 30px;
+    text-align: start;
+    border-right: none;
+}
+
+.wallet td {
+    border-left: none;
+}
+
+.c-payment {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
 @media (max-width: 1440px) {
     .brand-logo img {
         width: 60%;
@@ -19043,6 +19077,10 @@ li.sub-menu--item.nav-item-has-children i {
     .portfolio-banner-content h3 {
         font-size: 26px;
     }
+
+    .table td {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -19129,6 +19167,36 @@ li.sub-menu--item.nav-item-has-children i {
         padding-top: 0;
         padding-bottom: 50px;
     }
+
+    .table th {
+        width: 40%;
+    }
+
+    .table td {
+        font-size: 16px;
+        padding: 20px 10px;
+        line-height: 26px;
+    }
+
+    .table th img {
+        width: 80%;
+    }
+
+    .wallet th {
+        font-size: 22px;
+    }
+
+    .c-payment {
+        font-size: 22px;
+    }
+
+    .faq-main-area-single h2 {
+        margin-bottom: 20px;
+    }
+
+    .faq-main-area-single .faq {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -19187,5 +19255,13 @@ li.sub-menu--item.nav-item-has-children i {
 
     .faq-main-area {
         padding-top: 110px;
+    }
+
+    .faq-main-area-single .faq {
+        font-size: 25px;
+    }
+
+    .c-payment {
+        font-size: 20px;
     }
 }
