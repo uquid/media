@@ -1,0 +1,1512 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap'); */
+
+@font-face {
+    font-family: 'outfit';
+    src: url('static_pages/business/assets/font/outfit/OUTFIT-THIN.OTF');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url('static_pages/business/assets/font/outfit/OUTFIT-EXTRALIGHT.OTF');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url('static_pages/business/assets/font/outfit/OUTFIT-LIGHT.OTF');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url('static_pages/business/assets/font/outfit/OUTFIT-REGULAR.OTF');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url('static_pages/business/assets/font/outfit/OUTFIT-MEDIUM.OTF');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url('static_pages/business/assets/font/outfit/OUTFIT-SEMIBOLD.OTF');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url('static_pages/business/assets/font/outfit/OUTFIT-BOLD.OTF');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url('static_pages/business/assets/font/outfit/OUTFIT-EXTRABOLD.OTF');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+/* outfit font end  */
+
+@font-face {
+    font-family: 'Atyp Display';
+    src: url('static_pages/business/assets/font/atypdisplay/ATYPTEXT-THIN.TTF');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Atyp Display';
+    src: url('static_pages/business/assets/font/atypdisplay/ATYPDISPLAY-LIGHT.TTF');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Atyp Display';
+    src: url('static_pages/business/assets/font/atypdisplay/ATYPDISPLAY-REGULAR.TTF');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Atyp Display';
+    src: url('static_pages/business/assets/font/atypdisplay/ATYPDISPLAY-MEDIUM.TTF');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Atyp Display';
+    src: url('static_pages/business/assets/font/atypdisplay/ATYPDISPLAY-SEMIBOLD.TTF');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Atyp Display';
+    src: url('static_pages/business/assets/font/atypdisplay/ATYPDISPLAY-BOLD.TTF');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* atyp Display font end  */
+
+@font-face {
+    font-family: 'termina';
+    src: url('static_pages/business/assets/font/termina/Termina-thin.otf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'termina';
+    src: url('static_pages/business/assets/font/termina/Termina-extralite.otf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'termina';
+    src: url('static_pages/business/assets/font/termina/Termina-light.otf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'termina';
+    src: url('static_pages/business/assets/font/termina/Termina-regular.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'termina';
+    src: url('static_pages/business/assets/font/termina/Termina-medium.otf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'termina';
+    src: url('static_pages/business/assets/font/termina/Termina-semibold.otf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'termina';
+    src: url('static_pages/business/assets/font/termina/Termina-bold.otf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'termina';
+    src: url('static_pages/business/assets/font/termina/Termina-extrabold.otf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'termina';
+    src: url('static_pages/business/assets/font/termina/Termina-black.otf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* termina fonts end  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px 30px;
+    background-color: #F7F5F7;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Atyp Display';
+
+}
+
+h1 {
+    line-height: 115px;
+}
+
+h2 {
+    line-height: 80px;
+}
+
+p {
+    color: #061A2A;
+}
+
+/* .container-fluid {
+    margin: auto 100px;
+} */
+
+.container {
+    max-width: 1727px;
+    margin: 0 auto;
+}
+
+.container_padd {
+    padding: 0px 152px;
+}
+
+header {
+    color: #FFFFFF;
+    background-color: #0B1623;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar-toggler {
+    color: #FFFFFF !important;
+}
+
+.nav-item .item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.nav-item .item img {
+    padding-left: 10px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+
+.head_border {
+    border-bottom: 1px solid #313D49;
+}
+
+.nav-item.active>.item::after,
+.nav-item>.item:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 112px;
+    height: 2px;
+    background-color: #FFFFFF;
+    border: 1px solid #F0BFB9;
+    transform: translateX(-50%);
+}
+
+.Business_sec {
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    height: calc(100vh - 82px);
+    background-image: url(static_pages/business/assets/images/herobg/herobg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* hero section css  start  */
+.gray_span {
+    color: #B6B9BD;
+    padding-right: 5px;
+}
+
+.hero_padd {
+    padding: 97px 0px 0px;
+}
+
+.header_desp p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.49px;
+}
+
+.header_desp h1 {
+    color: #FFFFFF;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lightp_span {
+    color: #F0BFB9;
+}
+
+.lightg_span {
+    color: #9EBCB3;
+}
+
+.btn_green {
+    font-weight: 700;
+    text-decoration: none;
+    color: #111111;
+    background-color: #A8D0B8;
+    border-radius: 7px;
+    padding: 12px 24px;
+    letter-spacing: 3px;
+}
+
+.btn_green:hover {
+    color: inherit;
+}
+
+.btn_mar {
+    padding-top: 43px;
+}
+
+.btnw_black {
+    position: absolute;
+    bottom: 50px;
+    left: 71px;
+    /* width: 200px; */
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 2.49px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 23px;
+    padding: 13px 20px;
+}
+
+.btnw_black:hover {
+    color: inherit;
+}
+
+.btnw_black img {
+    padding-right: 10px;
+}
+
+/*  hero section css end   */
+
+/* Uquid's Value section css start  */
+
+.card_sec {
+    padding-top: 85px;
+}
+
+.Uquid_Value_sec {
+    padding: 140px 0px;
+}
+
+.h2_tag {
+    font-size: 50px;
+    font-weight: 600;
+    color: #061A2A;
+}
+
+.Uquid_Value_desp p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-bg {
+    width: calc(100% - 17.75px);
+    height: 100%;
+    border-radius: 10px;
+    background-image: url(static_pages/business/assets/images/cards/card_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 146% 177%;
+}
+
+
+.card-bg_des {
+    padding: 25px;
+}
+
+.card-bg_des p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.card-bg_des span {
+    font-weight: 600;
+}
+
+.card_hr {
+    width: 100%;
+    border-top: 1px solid #09120F10;
+    margin: 15px 0px;
+}
+
+
+/* Uquid's Value section css end   */
+
+/* Why_Uquid?_sec css start  */
+
+.Why_Uquid_sec {
+    padding-bottom: 250px;
+}
+
+.card_hr_why {
+    width: 100%;
+    border-top: 1px solid #CDCCCE;
+    margin: 15px 0px;
+}
+
+
+.Why_Uquid_desp p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Why_Uquid_lines {
+    border-top: 1px solid #CDCCCE;
+    padding: 35px 0px;
+}
+
+.f--18 {
+    color: #061A2A;
+    font-family: 'Atyp Display';
+    font-weight: 400;
+    font-size: 18px !important;
+}
+
+.f--20 {
+    color: #061A2A;
+    font-family: 'Atyp Display';
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.f--22 {
+    color: #061A2A;
+    font-size: 22px !important;
+    font-weight: 500;
+    font-family: 'Atyp Display';
+
+}
+
+/* Why_Uquid?_sec css end   */
+
+/*  EARN EXPERIENCE css section start */
+.experience_sec {
+    padding-bottom: 40px;
+}
+
+.earn_desp .earn_p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'outfit';
+    letter-spacing: 4.3px;
+    padding-bottom: 20px;
+}
+
+.earn_desp .earn_p2 {
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+/*  EARN EXPERIENCE  css section end  */
+
+/* user section css start  */
+
+.user_sec {
+    padding-bottom: 200px;
+}
+
+.users_hr {
+    width: 100%;
+    border-top: 1px solid #DFDDDF;
+    margin: 20px 0px;
+}
+
+
+
+.user_icon {
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    border-radius: 5px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.user_desp p {
+    color: #061A2A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mt--20 {
+    margin-top: 20px;
+}
+
+.merchant_padd {
+    padding-top: 70px;
+}
+
+.user_main_head {
+    font-size: 20px;
+    color: #061A2A;
+    font-weight: 500;
+}
+
+/* user section css end  */
+
+/* explore section css start */
+.explore_sec {
+    padding-bottom: 150px;
+}
+
+.explore_sec-bg {
+    padding: 21px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #0B1623;
+}
+
+.ex_padd {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+
+.ex_top p {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 0px 55px 0px 20px;
+}
+
+.lg-span {
+    color: #F0B90B;
+    padding-right: 10px;
+}
+
+.point_explore p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.point_explore {
+    margin-top: 50px;
+}
+
+.btn_explore {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0B1623;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    padding: 15px 25px;
+    letter-spacing: 3px;
+}
+
+.btn_explore:hover {
+    color: inherit;
+}
+
+.exp_mar {
+    margin-top: 42px;
+}
+
+/* explore section end  */
+
+/* pay in css section start */
+.pay_in_sec {
+    padding-bottom: 150px;
+}
+
+.pay_in_sec p {
+    padding-right: auto;
+    padding-left: auto;
+
+}
+
+/* .payin_bg {
+    background-image: url(../images/payment/paymentbg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+} */
+
+.payin_bg h3 {
+    padding: 15px 50px 15px 15px;
+    font-size: 31px;
+    font-weight: 400;
+}
+
+.pay_desp {
+    color: #061A2A;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 32px 0px 45px;
+}
+
+.btn_explore_black {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #EBEDEE;
+    background-color: #0B1623;
+    border-radius: 7px;
+    padding: 15px 25px;
+    letter-spacing: 3px;
+}
+
+.btn_explore_black:hover {
+    color: #EBEDEE;
+}
+
+.pay_btn {
+    margin-top: 45px;
+}
+
+.pay_cards {
+    padding-top: 60px;
+}
+
+.percentagecard_hr {
+    width: 100%;
+    border-top: 1px solid #C9C7C9;
+    margin: 30px 0px;
+}
+
+.percentagecard_hr+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'outfit';
+}
+
+.percentagecard_hr~p {
+    color: #061A2A;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+/* pay in css section end*/
+
+
+/* your tokan css section start  */
+
+.tokan_sec {
+    padding-bottom: 25px;
+}
+
+.list_bg {
+    position: relative;
+    background-color: #F5E3E2;
+    padding: 191px 343px 60px 60px;
+    border-radius: 20px;
+}
+
+.list_bg h3 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #061A2A;
+}
+
+.list_bg p {
+    color: #061A2A;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.tokan_explore {
+    margin-top: 33px;
+}
+
+.token_hand img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.accsept_payment {
+    background-color: #0B1623;
+    padding: 40px 130px 300px 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.accsept_payment h3 {
+    color: #F7F5F7;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.tokens_img {
+    width: 100%;
+    position: absolute;
+    bottom: -28px;
+    right: -67px;
+}
+
+/* your tokan css section end  */
+
+
+/* nftd section css start */
+.nfdt_sec {
+    padding-bottom: 150px;
+}
+
+.nfdt_sec_bg {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #D4DEDD;
+}
+
+.nftd_green {
+    width: 462px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Atyp Display';
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 7px;
+    padding: 8px 18px;
+    color: #288D6E;
+    border: 1px solid #288D6E;
+}
+
+.nftd_green:hover {
+    color: #288D6E;
+}
+
+.nftd_desp {
+    padding: 54px 81px 68px 0px;
+}
+
+.nfdt_padd {
+    padding: 57px 10px 27px 92px;
+}
+
+
+.nftd_desp p {
+    padding: 25px 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cards_img {
+    height: auto;
+    position: absolute;
+    bottom: -66px;
+    right: 90px;
+}
+
+/* nftd section css  end  */
+
+
+/* <!-- Exchange css section start  --> */
+.exchange_sec {
+    padding-bottom: 250px;
+}
+
+.lap_img {
+    position: absolute;
+    top: 0px;
+    left: -408px;
+}
+
+
+.Exchange_desp {
+    padding: 122px 0px 85px 134px;
+}
+
+.Exchange_desp img {
+    padding-bottom: 50px;
+}
+
+.Exchange_desp h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #0B1623;
+}
+
+.Exchange_desp p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.caskback_padd {
+    padding: 30px 0px;
+}
+
+/* <!-- Exchange css section end   --> */
+
+
+/* footer section css start  */
+
+.footer_sec {
+    padding: 80px 100px;
+    background-color: #0B1623;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.orange_logo img {
+    padding-bottom: 50px;
+}
+
+.footer_social li {
+    position: relative;
+    color: #F7F5F7;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer_social li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer_social li::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #3C454F;
+    position: absolute;
+    top: 9px;
+    left: -55px;
+}
+
+.f_dot {
+    width: 10px;
+    height: 10px;
+    margin: 0px 40px;
+    border-radius: 50%;
+    background-color: #3C454F;
+    display: inline-block;
+}
+
+.copyright_desp p {
+    font-size: 18px;
+    color: #F7F5F750;
+    text-align: end;
+    font-weight: 300;
+}
+
+/* footer section css end  */
+
+/*  media start  */
+
+@media screen and (max-width:1440px) {
+
+    .footer_social li::before {
+        left: -27px;
+    }
+
+    .f_dot {
+        display: none;
+    }
+
+    .card-bg_des {
+        padding: 29px;
+    }
+
+    .Why_Uquid_sec {
+        padding-bottom: 200px;
+    }
+
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .container_padd {
+        padding: 0px 12px;
+    }
+
+    .btnw_black {
+        left: 52px;
+    }
+
+    .accsept_payment {
+        padding: 40px 130px 300px 40px;
+    }
+
+    .nftd_desp {
+        padding: 36px 81px 35px 0px;
+    }
+
+    .lg-span {
+        color: #F0B90B;
+        padding-right: 12px;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .btnw_black {
+        left: 15px;
+    }
+    .nav-item .item {      
+        padding: 30px 0 30px 30px;        
+    }
+
+}
+
+
+@media screen and (max-width:1280px) {
+
+    .btnw_black {
+        left: 11px;
+    }
+
+    h1 {
+        line-height: 108px;
+    }
+
+    .ex_padd {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .accsept_payment {
+        padding: 40px 130px 204px 40px;
+    }
+
+    .footer_social li::before {
+        left: -21px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .accsept_payment {
+        padding: 40px 130px 291px 40px;
+    }
+
+    .footer_social li::before {
+        left: -20px;
+    }
+
+    .header_desp h1 {
+        font-size: 78px;
+    }
+
+    h1 {
+        line-height: 85px;
+    }
+
+    .lap_img {
+        position: inherit;      
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .header_desp h1 {
+        font-size: 64px;
+    }
+
+    .copyright_desp p {
+        font-size: 17px;
+
+    }
+
+    .lap_img {
+        position: unset;
+    }
+
+    h1 {
+        line-height: 78px;
+    }
+
+    .ex_top p {
+
+        padding: 0px 27px 0px 20px;
+    }
+
+    .btnw_black {
+        left: 13px;
+    }
+
+    .Uquid_Value_sec {
+        padding: 92px 0px;
+    }
+
+    .card-bg_des p {
+        font-size: 17px;
+    }
+
+    .Why_Uquid_sec {
+        padding-bottom: 100px;
+    }
+
+    .earn_desp .earn_p2 {
+        font-size: 17px;
+    }
+
+    .user_sec {
+        padding-bottom: 80px;
+    }
+
+    .ex_padd {
+        padding-top: 28px;
+        padding-left: 12px;
+        padding-bottom: 50px
+    }
+
+    .explore_sec-bg {
+        padding: 34px;
+    }
+
+    .explore_sec {
+        padding-bottom: 111px;
+    }
+
+    .pay_in_sec {
+        padding-bottom: 120px;
+    }
+
+    .list_bg {
+        padding: 73px 343px 60px 15px;
+    }
+
+    .accsept_payment {
+        padding: 40px 14px 295px 14px;
+    }
+
+    .tokens_img {
+        right: -45px;
+    }
+
+    .nfdt_padd {
+        padding: 57px 10px 27px 39px;
+    }
+
+    .Exchange_desp {
+        padding: 100px 0px 85px 28px;
+    }
+
+    .Exchange_desp h3 {
+        font-size: 36px;
+    }
+
+    .footer_sec {
+        padding: 60px 36px;
+    }
+
+    .exchange_sec {
+        padding-bottom: 155px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .navbar-toggler {
+        background-color: #FFFFFF;
+        margin: 10px;
+    }
+
+    .lap_img {
+        position: unset;
+    }
+
+    .cards_img {
+        position: unset;
+    }
+
+    .token_hand img {
+        position: unset;
+
+    }
+
+    .token_hand {
+        text-align: end;
+    }
+
+    .list_bg {
+        padding: 73px 0px 0px 15px;
+    }
+
+    .cards_img img {
+        padding-bottom: 40px;
+    }
+
+
+    .nav-item.active>.item::after,
+    .nav-item>.item:hover::after {
+        left: 85px;
+
+    }
+
+    .copyright_desp p {
+        text-align: start;
+    }
+
+    .copyright_desp p {
+        text-align: end;
+    }
+
+    .tokens_img {
+        width: 50%;
+        position: absolute;
+        bottom: -28px;
+        right: -48px;
+    }
+
+    .accsept_payment {
+        padding: 40px 551px 234px 14px;
+    }
+
+    .accsept_payment h3 {
+        font-size: 51px;
+    }
+
+    .cards_img {
+        right: 23px;
+    }
+
+    .pay_in_sec {
+        padding-bottom: 200px;
+    }
+
+    .accsept_payment {
+        padding: 31px 277px 177px 15px;
+    }
+
+    .nftd_desp {
+        padding: 29px 95px 12px 0px;
+    }
+
+    .Exchange_desp {
+        padding: 123px 0px 85px 10px;
+    }
+
+    .pay_cards {
+        padding-top: 100px;
+    }
+
+    .merchant_padd {
+        padding-top: 40px;
+    }
+
+    .exchange_sec {
+        padding-bottom: 32px;
+    }
+
+    .footer_sec {
+        padding: 33px 36px;
+    }
+
+    .exchange_sec {
+        padding-bottom: 100px;
+    }
+
+    .header_desp h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Exchange_desp {
+        padding: 0px 0px 15px 10px;
+        margin-top: 49px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header_desp h1 {
+        font-size: 56px;
+    }
+
+    .nfdt_sec {
+        padding-bottom: 60px;
+    }
+
+    .copyright_desp p {
+        font-size: 15px;
+        text-align: start;
+    }
+
+    .lap_img {
+        display: none;
+    }
+}
+
+/* @media screen and (max-width:575px) {
+    .list_bg {
+        padding: 73px 0px 0px 15px;
+    }
+
+    .token_hand {
+        text-align: end;
+    }
+
+} */
+
+
+@media screen and (max-width:575px) {
+    .header_desp h1 {
+        color: #FFFFFF;
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .hero_padd {
+        padding: 40px 0px 0px;
+    }
+
+    .copyright_desp p {
+        font-size: 15px;
+    }
+
+    .Uquid_Value_sec {
+        padding: 45px 0px;
+    }
+
+    .btnw_black {
+        bottom: 15px;
+        left: 12px;
+        width: 233px;
+        padding: 6px 16px;
+    }
+
+
+    .Why_Uquid_sec {
+        padding-bottom: 78px;
+    }
+
+    .list_bg {
+        padding: 20px 30px 35px 24px;
+    }
+
+    .nftd_desp {
+        padding: 29px 0px 306px 0px;
+    }
+
+    .nfdt_padd {
+        padding: 57px 10px 27px 22px;
+    }
+
+    .nfdt_sec_bg {
+        padding: 8px;
+    }
+
+    .tokens_img {
+        width: 100%;
+        position: absolute;
+        bottom: -38px;
+        right: -50px;
+    }
+
+    .footer_sec {
+        padding: 51px 16px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .footer_social li {
+        font-size: 16px;
+    }
+
+    .Exchange_desp {
+        padding: 85px 0px 85px 14px;
+    }
+
+    .nftd_green {
+        width: 407px;
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+
+    .nfdt_sec {
+        padding-bottom: 0px;
+    }
+
+    .Exchange_desp h3 {
+        font-size: 36px;
+    }
+
+    .Exchange_desp p {
+        font-size: 16px;
+    }
+
+    .Exchange_desp {
+        padding: 85px 0px 20px 14px;
+    }
+
+    .exchange_sec {
+        padding-bottom: 60px;
+    }
+
+    .accsept_payment {
+        padding: 21px 77px 187px 31px;
+
+    }
+
+    .Business_sec {
+        height: calc(69vh - 82px);
+    }
+
+    .h2_tag {
+        font-size: 36px;
+    }
+
+    .Uquid_Value_desp p {
+        font-size: 16px;
+    }
+
+    .card_sec {
+        padding-top: 42px;
+    }
+
+    .card-bg {
+        height: 190px;
+    }
+
+    .earn_desp .earn_p {
+        font-size: 18px;
+        letter-spacing: 3.3px;
+        padding-bottom: 34px;
+    }
+
+    .ex_padd {
+        padding-top: 10px;
+        padding-left: 19px;
+    }
+
+    .explore_sec {
+        padding-bottom: 60px;
+    }
+
+    .pay_desp {
+        font-size: 16px;
+        padding: 32px 0px 45px;
+    }
+
+    .user_sec {
+        padding-bottom: 60px;
+    }
+
+    .earn_desp .earn_p2 {
+        font-size: 17px;
+    }
+
+    .user_icon {
+        margin-right: 10px;
+    }
+
+    .list_bg {
+        padding: 20px 30px 457px 24px;
+    }
+
+    .list_bg h3 {
+        font-size: 36px;
+    }
+
+    .pay_in_sec {
+        padding-bottom: 60px;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    .header_desp h1 {
+        color: #FFFFFF;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .header_desp p {
+        color: #FFFFFF;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 1.49px;
+        padding-bottom: 10px;
+    }
+
+    .ex_padd {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    .list_bg {
+        padding: 20px 0px 0 14px;
+    }
+
+    .accsept_payment h3 {
+        font-size: 33px;
+    }
+
+    .nftd_green {
+        width: 284px;
+        font-size: 13px;
+        padding: 8px 14px;
+        letter-spacing: 0px;
+    }
+
+    .nfdt_padd {
+        padding: 19px 10px 27px 11px;
+    }
+
+    .nftd_desp {
+        padding: 20px;
+    }
+
+    .nftd_desp p {
+        font-size: 16px;
+    }
+
+    h1 {
+        line-height: 33px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .nfdt_padd {
+        padding: 57px 10px 19px 0px;
+    }
+
+    .card-bg_des {
+        padding: 28px;
+    }
+
+    .pay_cards {
+        padding-top: 15px;
+    }
+
+    h1 {
+        line-height: 33px;
+    }
+
+    .ex_padd {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .list_bg {
+        padding: 20px 0px 0px 20px;
+    }
+
+    .header_desp h1 {
+        font-size: 22px;
+    }
+
+    .accsept_payment h3 {
+        font-size: 25px;
+    }
+
+    .copyright_desp p {
+        font-size: 15px;
+
+    }
+
+    .explore_sec-bg {
+        padding: 19px;
+    }
+
+    .list_bg h3 {
+        font-size: 31px;
+    }
+
+    .accsept_payment {
+        padding: 21px 63px 120px 31px;
+    }
+
+    .nftd_green {
+        width: 259px;
+        font-size: 12px;
+        padding: 8px 13px;
+    }
+
+    .nfdt_padd {
+        padding: 18px 0px 0 0px;
+    }
+
+    .nftd_desp p {
+        padding: 25px 0px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .nftd_desp {
+        padding: 29px 0px 33px 0px;
+    }
+
+    .Exchange_desp {
+        padding: 23px 0px 20px 0px;
+    }
+}
+
+/*  media end  */
