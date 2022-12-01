@@ -2,56 +2,56 @@
 
 @font-face {
     font-family: 'outfit';
-    src: url('static_pages/business/assets/font/outfit/OUTFIT-THIN.OTF');
+    src: url('../font/outfit/OUTFIT-THIN.OTF');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'outfit';
-    src: url('static_pages/business/assets/font/outfit/OUTFIT-EXTRALIGHT.OTF');
+    src: url('../font/outfit/OUTFIT-EXTRALIGHT.OTF');
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'outfit';
-    src: url('static_pages/business/assets/font/outfit/OUTFIT-LIGHT.OTF');
+    src: url('../font/outfit/OUTFIT-LIGHT.OTF');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'outfit';
-    src: url('static_pages/business/assets/font/outfit/OUTFIT-REGULAR.OTF');
+    src: url('../font/outfit/OUTFIT-REGULAR.OTF');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'outfit';
-    src: url('static_pages/business/assets/font/outfit/OUTFIT-MEDIUM.OTF');
+    src: url('../font/outfit/OUTFIT-MEDIUM.OTF');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'outfit';
-    src: url('static_pages/business/assets/font/outfit/OUTFIT-SEMIBOLD.OTF');
+    src: url('../font/outfit/OUTFIT-SEMIBOLD.OTF');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'outfit';
-    src: url('static_pages/business/assets/font/outfit/OUTFIT-BOLD.OTF');
+    src: url('../font/outfit/OUTFIT-BOLD.OTF');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'outfit';
-    src: url('static_pages/business/assets/font/outfit/OUTFIT-EXTRABOLD.OTF');
+    src: url('../font/outfit/OUTFIT-EXTRABOLD.OTF');
     font-weight: 800;
     font-style: normal;
 }
@@ -61,42 +61,42 @@
 
 @font-face {
     font-family: 'Atyp Display';
-    src: url('static_pages/business/assets/font/atypdisplay/ATYPTEXT-THIN.TTF');
+    src: url('../font/atypdisplay/ATYPTEXT-THIN.TTF');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Atyp Display';
-    src: url('static_pages/business/assets/font/atypdisplay/ATYPDISPLAY-LIGHT.TTF');
+    src: url('../font/atypdisplay/ATYPDISPLAY-LIGHT.TTF');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Atyp Display';
-    src: url('static_pages/business/assets/font/atypdisplay/ATYPDISPLAY-REGULAR.TTF');
+    src: url('../font/atypdisplay/ATYPDISPLAY-REGULAR.TTF');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Atyp Display';
-    src: url('static_pages/business/assets/font/atypdisplay/ATYPDISPLAY-MEDIUM.TTF');
+    src: url('../font/atypdisplay/ATYPDISPLAY-MEDIUM.TTF');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Atyp Display';
-    src: url('static_pages/business/assets/font/atypdisplay/ATYPDISPLAY-SEMIBOLD.TTF');
+    src: url('../font/atypdisplay/ATYPDISPLAY-SEMIBOLD.TTF');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Atyp Display';
-    src: url('static_pages/business/assets/font/atypdisplay/ATYPDISPLAY-BOLD.TTF');
+    src: url('../font/atypdisplay/ATYPDISPLAY-BOLD.TTF');
     font-weight: 700;
     font-style: normal;
 }
@@ -105,63 +105,63 @@
 
 @font-face {
     font-family: 'termina';
-    src: url('static_pages/business/assets/font/termina/Termina-thin.otf');
+    src: url('../font/termina/Termina-thin.otf');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'termina';
-    src: url('static_pages/business/assets/font/termina/Termina-extralite.otf');
+    src: url('../font/termina/Termina-extralite.otf');
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'termina';
-    src: url('static_pages/business/assets/font/termina/Termina-light.otf');
+    src: url('../font/termina/Termina-light.otf');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'termina';
-    src: url('static_pages/business/assets/font/termina/Termina-regular.otf');
+    src: url('../font/termina/Termina-regular.otf');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'termina';
-    src: url('static_pages/business/assets/font/termina/Termina-medium.otf');
+    src: url('../font/termina/Termina-medium.otf');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'termina';
-    src: url('static_pages/business/assets/font/termina/Termina-semibold.otf');
+    src: url('../font/termina/Termina-semibold.otf');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'termina';
-    src: url('static_pages/business/assets/font/termina/Termina-bold.otf');
+    src: url('../font/termina/Termina-bold.otf');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'termina';
-    src: url('static_pages/business/assets/font/termina/Termina-extrabold.otf');
+    src: url('../font/termina/Termina-extrabold.otf');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'termina';
-    src: url('static_pages/business/assets/font/termina/Termina-black.otf');
+    src: url('../font/termina/Termina-black.otf');
     font-weight: 900;
     font-style: normal;
 }
@@ -271,7 +271,7 @@ header {
     width: 100%;
     border-radius: 0px 0px 20px 20px;
     height: calc(100vh - 82px);
-    background-image: url(static_pages/business/assets/images/herobg/herobg.png);
+    background-image: url(../images/herobg/herobg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -378,7 +378,7 @@ header {
     width: calc(100% - 17.75px);
     height: 100%;
     border-radius: 10px;
-    background-image: url(static_pages/business/assets/images/cards/card_bg.png);
+    background-image: url(../images/cards/card_bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 146% 177%;
