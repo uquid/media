@@ -1,0 +1,607 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* font start */
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-Thin.ttf") format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-Black.ttf") format("truetype");
+    font-weight: 900;
+}
+
+body {
+    font-family: "Outfit";
+    background-color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+    [ ## Header ]
+--------------------------------------------------------------*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1024;
+    transition: all 0.3s ease;
+    padding: 25px 0;
+    background: #F6F6F6;
+}
+
+.header.sticky {
+    position: fixed;
+    top: 0;
+    padding: 1rem 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .header.sticky {
+        padding: 0;
+    }
+}
+
+.header.header-style-one.sticky {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px 0px;
+}
+
+.header .main-menu ul {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .header .main-menu ul {
+        display: inline-block;
+    }
+}
+
+.header .main-menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.header .main-menu li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+    line-height: 20px;
+    padding-right: 50px;
+    border-bottom: 0;
+}
+
+.header.header-style-one .main-menu li a {
+    color: #111111;
+}
+
+.header.header-style-one .main-menu li a:hover {
+    color: #111111;
+    text-decoration: none;
+}
+
+.header .button {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .header .button {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header .button {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header .button {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    /* .header .button button {
+        padding: 0;
+        font-size: 1rem;
+        width: 158px;
+        height: 50px;
+    } */
+}
+
+.header .toggler-menu {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    display: block;
+}
+
+@media screen and (min-width: 1200px) {
+    .header .toggler-menu {
+        display: none;
+    }
+}
+
+.header .toggler-menu span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 25px;
+    height: 2px;
+    margin: auto;
+    margin-right: 0;
+    background: #111111;
+    box-shadow: 0px -8px 0 0px #111111, 0px 8px 0 0px #111111;
+}
+
+/*--------------------------------------------------------------
+    [ ## Menu ]
+--------------------------------------------------------------*/
+.header .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -380px;
+    background-color: #f6f6f6;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 375px;
+    z-index: 1024;
+    transition: ease all 0.35s;
+    overflow-y: auto;
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.05);
+}
+
+.header .mobile-menu .menu-header {
+    padding: 26.5px 15px;
+}
+
+.header .mobile-menu .close-menu {
+    position: absolute;
+    right: 8px;
+    top: 28px;
+    opacity: 0;
+    visibility: hidden;
+    width: 32px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    transition: ease all 0.35s;
+}
+
+.header .mobile-menu.is-menu-open {
+    left: 0;
+}
+
+.header .mobile-menu.is-menu-open .close-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.header .mobile-menu .menu {
+    background-color: #ffffff;
+}
+
+.header .mobile-menu .menu ul {
+    display: block;
+    padding: 0 1rem;
+}
+
+.header .mobile-menu .menu ul li {
+    padding: 0;
+}
+
+.header .mobile-menu .menu ul li a {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0.5rem 0.8rem 0;
+    color: #292929;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(41, 41, 41, 0.15);
+    position: relative;
+}
+
+.header .mobile-menu .menu>ul>li:last-child a {
+    border-bottom: 0;
+}
+
+.header .mobile-menu .buttons {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 0.5rem 0 1.5rem;
+}
+
+.header .mobile-menu .buttons button {
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1.87rem;
+    border: 2px solid #000000;
+}
+
+@media screen and (min-width: 1200px) {
+    .header .mobile-menu {
+        display: none;
+    }
+}
+
+.header.header-style-one .menu-header {
+    background-color: #F6F6F6;
+}
+
+a#scroll-top {
+    display: none;
+}
+
+.btn-round-25 {
+    border-radius: 25px;
+}
+
+.hover-bg-white:hover {
+    background-color: #ffffff;
+    color: #000000 !important;
+}
+
+.hover-bg-black:hover {
+    color: #ffffff;
+    background-color: #000000 !important;
+}
+
+.active a,
+.c_btn a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.mt_200 {
+    margin-top: 200px;
+}
+
+/*--------------------------------------------------------------
+    [ ## full size Container ]
+--------------------------------------------------------------*/
+@media screen and (min-width: 1620px) {
+    .container {
+        width: 100%;
+        max-width: 1620px;
+        padding: 0 12px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1520px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+.header_link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+    line-height: 20px;
+    padding-right: 50px;
+}
+
+.main_area {
+    padding-bottom: 130px;
+}
+
+.main_section {
+    padding-top: 100px;
+    margin-top: 77px;
+}
+
+.f_heading {
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid #11111110;
+}
+
+.h_title {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #111111;
+    margin: 0;
+}
+
+.c_payment {
+    padding-top: 40px;
+}
+
+.second_title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.c_payment .row>:nth-last-child(-n+35) {
+    margin-top: 20px;
+}
+
+.crypto_card {
+    border: 1px solid #1111111A;
+    border-radius: 20px;
+    padding: 5px 5px 15px;
+    height: 100%;
+}
+
+.card_containt {
+    padding: 10px 10px 0px;
+}
+
+.card_title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.68px;
+    color: #111111;
+    margin-bottom: 5px;
+}
+
+.card_pera {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    color: #111111;
+    opacity: 70%;
+    margin-bottom: 0;
+}
+
+.u_paying {
+    padding-top: 40px;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #F6F6F6;
+}
+
+.footer_list a img {
+    width: 25%;
+}
+
+.footer_list p {
+    color: #687497;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.footer_list h4 {
+    color: #687497;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: normal;
+}
+
+.footer_menu li a {
+    color: #687497;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.copy_right_area {
+    padding: 25px 0px;
+    background-color: #f74d49;
+}
+
+.copy_right_text p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.53px;
+    line-height: normal;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.social_link h4 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.53px;
+    line-height: normal;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.media_list li a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0px 12px;
+}
+
+.third_title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #111111;
+    padding: 20px 0px;
+    margin-bottom: 0;
+}
+
+.uqc_logo {
+    width: 130px;
+}
+
+/*--------------------------------------------------------------
+    [ ## Responsive start ]
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 1399px) {
+    .c_payment .row>:nth-last-child(-n+36) {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .c_payment .row>:nth-last-child(-n+37) {
+        margin-top: 20px;
+    }
+
+    .header .toggler-menu {
+        width: 30px;
+        height: 30px;
+    }
+
+    a.header_logo img {
+        width: 140px;
+    }
+
+    .main_area {
+        padding-bottom: 80px;
+    }
+
+    .h_title {
+        font-size: 30px;
+    }
+
+    .footer_list a img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .c_payment .row>:nth-last-child(-n+37) {
+        margin-top: 0px;
+    }
+
+    .c_payment .row>:nth-last-child(-n+38) {
+        margin-top: 20px;
+    }
+
+    .header .toggler-menu {
+        width: 25px;
+        height: 20px;
+    }
+
+    a.header_logo img {
+        width: 110px;
+    }
+
+    .h_title {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .main_section {
+        padding-top: 70px;
+        margin-top: 74px;
+    }
+
+    .card_pera {
+        font-size: 14px;
+    }
+
+    .footer_list {
+        margin-bottom: 45px;
+    }
+
+    .social_link {
+        margin-top: 20px;
+    }
+
+    .second_title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .footer_list a img {
+        width: 30%;
+    }
+}
